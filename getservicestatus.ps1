@@ -1,0 +1,1 @@
+﻿Get-Service -Name WinRM | where{$_.Status -eq "running"}
